@@ -2,4 +2,46 @@
 
 * {
 	font-family: Arial;
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	line-height: 1.4;
+}
+
+body.homepage {
+	background-color: #111827;
+	color: #f7f3eb;
+}
+
+.scene {
+	max-width: 760px;
+	margin: 25px auto;
+	padding: 30px;
+}
+
+.time {
+	font-size: 14px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #ffc857;
+}
+
+h1{
+	font-size: 64px;
+	line-height: 1;
+	margin: 20px 0;
+}
+
+p{
+	font-size: 20px;
+}
+
+.scene img{
+	display: block;
+	width: 100%;
+	max-width: 600px;
+	margin: 30px auto;
+	border-radius: 18px;
 }
