@@ -51,6 +51,38 @@ body.phonepage {
 	color: #2a3040;
 }
 
-body.phonepage time {
+body.phonepage .time {
 	color: #a4364f;
+}
+
+body.witnesspage {
+	background-color: #dce9df;
+	color: #17382f;
+}
+
+body.witnesspage .time {
+	color: #9a4c20
+}
+
+p a {
+	color:firebrick;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 2px dotted currentColor;
+}
+
+body.homepage p a:hover{
+	color:white;
+}
+
+body.phonepage p a:hover, body.witnesspage p a:hover{
+	color: darkred;
+}
+
+.image-link img {
+	border: 4px solid transparent;
+}
+
+.image-link:hover img{
+	border-color: firebrick;
 }
