@@ -45,3 +45,12 @@ p{
 	margin: 30px auto;
 	border-radius: 18px;
 }
+
+body.phonepage {
+	background-color: #f3e6e3;
+	color: #2a3040;
+}
+
+body.phonepage time {
+	color: #a4364f;
+}
